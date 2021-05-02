@@ -25,15 +25,11 @@ int main()
 	//
 	double W = 0.5; // Weight
 	double b = 0.5; // bias
-
+	double learning_rate = 0.01;
+	
 	double hypothesis[M];
-
-	// cost/loss function
 	double cost = 0;
 	double costIndex[M];
-
-	// Minimize
-	double learning_rate = 0.01;
 
 
 	for (int step = 0; step < 3000; step++)
