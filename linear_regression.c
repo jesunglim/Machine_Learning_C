@@ -77,12 +77,11 @@ int main()
 		W = temp0;
 		b = temp1;
 
-		/*
+		
 		if (step % 10 == 0)
 			printf("step[%d], cost:%lf, W:[%lf], b:[%lf]\n", step, cost, W, b);
-			*/
 
-		printf("step[%d], cost:%lf, W:[%lf], b:[%lf]\n", step, cost, W, b);
+		//printf("step[%d], cost:%lf, W:[%lf], b:[%lf]\n", step, cost, W, b);
 
 	}
 }
