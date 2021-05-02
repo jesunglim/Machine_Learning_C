@@ -29,6 +29,6 @@ temp0 = learning_rate * ((hypothesis - y)*x).mean()
 
 temp1 = learning_rate * ((hypothesis - y).mean()
 
-W = temp0
+W = W - temp0
 
-b = temp1
+b = b - temp1
